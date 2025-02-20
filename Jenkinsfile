@@ -3,6 +3,15 @@ pipeline {
 agent any
 
 stages {
+   stage('Clone Repository') {
+
+steps {
+
+git 'https://github.com/Jithendra-Jithu/jen_kin2.git'
+
+}
+
+} 
    
 
 
