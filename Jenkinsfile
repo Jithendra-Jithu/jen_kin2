@@ -4,11 +4,7 @@ agent any
 
 stages {
 
-stage('Clone Repository') {
 
-
-
-}
 
 stage('Install Dependencies') {
 
